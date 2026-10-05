@@ -1,0 +1,16 @@
+---
+title: "Góc học tập của Chi"
+subtitle: "Ghi lại điều mình học, từng chút một."
+---
+
+Chào mừng bạn đến với sổ tay học tập của mình. Ở đây mình lưu lại những ý tưởng, lời giải và điều muốn nhớ lâu hơn.
+
+## Các chủ đề
+
+- [Toán và thống kê](posts/index.qmd#toán-và-thống-kê)
+- [Cấu trúc dữ liệu và giải thuật](posts/index.qmd#cấu-trúc-dữ-liệu-và-giải-thuật)
+- [Máy tính lượng tử](posts/index.qmd#máy-tính-lượng-tử)
+
+## Bài mới nhất
+
+Danh sách bài viết nằm ở trang [Bài viết](posts/index.qmd). Mỗi bài là một tệp `.qmd`; có thể thêm công thức LaTeX trực tiếp trong nội dung.

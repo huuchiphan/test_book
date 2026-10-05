@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Góc học tập của Chi"
+  description: "Ghi chép kiến thức và hành trình tự học"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Trang chủ
+      - href: posts/index.qmd
+        text: Bài viết
+      - href: about.qmd
+        text: Giới thiệu
+  page-footer:
+    center: "Góc học tập của Chi · Được xây dựng bằng Quarto"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3
+    number-sections: false
+    html-math-method: katex
+    css: styles.css
+
+execute:
+  freeze: auto

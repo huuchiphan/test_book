@@ -1,0 +1,46 @@
+---
+title: "Kỳ vọng và phương sai"
+date: "2026-10-05"
+categories: [toán, xác suất-thống-kê]
+description: "Ghi chú ngắn về kỳ vọng và phương sai của biến ngẫu nhiên."
+---
+
+## Kỳ vọng
+
+Kỳ vọng là giá trị trung bình có trọng số theo xác suất. Với biến ngẫu nhiên rời rạc $X$:
+
+$$
+\mathbb{E}[X] = \sum_x x\,P(X=x).
+$$
+
+Ví dụ, nếu $X$ nhận giá trị $0$ với xác suất $1-p$ và giá trị $1$ với xác suất $p$, thì
+
+$$
+\mathbb{E}[X] = 0(1-p)+1p=p.
+$$
+
+## Phương sai
+
+Phương sai đo mức độ phân tán quanh kỳ vọng:
+
+$$
+\operatorname{Var}(X)
+= \mathbb{E}\left[(X-\mathbb{E}[X])^2\right]
+= \mathbb{E}[X^2]-\mathbb{E}[X]^2.
+$$
+
+Với biến Bernoulli ở trên, $X^2=X$, do đó
+
+$$
+\operatorname{Var}(X)=p-p^2=p(1-p).
+$$
+
+## Ghi nhớ
+
+- Kỳ vọng mô tả mức trung bình dài hạn.
+- Phương sai mô tả độ biến động quanh mức trung bình.
+- Độ lệch chuẩn là căn bậc hai của phương sai: $\sigma_X=\sqrt{\operatorname{Var}(X)}$.
+
+## Câu hỏi để ôn lại
+
+Nếu tung đồng xu công bằng và ghi mặt ngửa là $1$, mặt sấp là $0$, kỳ vọng và phương sai của kết quả là bao nhiêu?

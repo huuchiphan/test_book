@@ -1,0 +1,21 @@
+---
+title: "Bài viết"
+listing:
+  contents: "*.qmd"
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+---
+
+## Toán và thống kê
+
+Ghi chép xác suất, thống kê, đại số tuyến tính và giải tích.
+
+## Cấu trúc dữ liệu và giải thuật
+
+Tóm tắt ý tưởng, độ phức tạp và bài tập đã giải.
+
+## Máy tính lượng tử
+
+Những khái niệm và bài học trong hành trình tìm hiểu điện toán lượng tử.
